@@ -33,5 +33,15 @@ This portfolio website is designed to present my work, skills, and projects in a
    npm install
    npm start
 
+2. Install all necessary package:
+
+   ```bash
+   npm install
+
+3. Start the application
+
+   ```bash
+   npm start
+
 
 Access the website in your web browser at http://localhost:3000 (or the appropriate URL if configured differently).
