@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website | CodingNepal</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <section class="container py-5" id="portfolio">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2><%= title %></h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">Here are collections of projects I have worked on</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/blink.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Blink NG</h6>
+                <p class="card-text text-secondary">ReactJS/Nodejs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/calculator.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Calculator App</h6>
+                <p class="card-text text-secondary">HTML/CSS/Javascript</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/tf.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Tickle Fluff</h6>
+                <p class="card-text text-secondary">React/Nodejs/AWS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/turing.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Turing App</h6>
+                <p class="card-text text-secondary">React/Node/Mysql/Nest</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/kygtrade.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">KYG Trade</h6>
+                <p class="card-text text-secondary">React/Node/Mysql/Nest</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/tbh.png" class="img-fluid" alt="TBH">
+              <div class="card-body text-center">
+                <h6 class="card-title">The Business Hub</h6>
+                <p class="card-text text-secondary">Nodejs/ReactJS/Postgres</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="/images/dosh.png" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Dosh Services</h6>
+                <p class="card-text text-secondary">React</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>   
+    <%- include('partials/header') %>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
