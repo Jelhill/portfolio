@@ -30,3 +30,8 @@ This portfolio website is designed to present my work, skills, and projects in a
 
    ```bash
    git clone https://github.com/Jelhill/portfolio.git
+   npm install
+   npm start
+
+
+Access the website in your web browser at http://localhost:3000 (or the appropriate URL if configured differently).
